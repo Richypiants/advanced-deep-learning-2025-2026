@@ -5,7 +5,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-%2523EE4C2C.svg?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![DINOv3](https://img.shields.io/badge/Backbone-DINOv3-blue?style=flat)](https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m)
 [![Kaggle](https://img.shields.io/badge/Kaggle-Notebooks-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/)
-[![ADL Report](https://img.shields.io/badge/ADL-Challenge%20Report-red?logo=adobe-acrobat-reader&logoColor=white)](./deliverables/ADL%20Challenge%20Report%20-%2021%20GANs.pdf)
+[![ADL Report](https://img.shields.io/badge/ADL-Challenge%20Report-red?logo=adobe-acrobat-reader&logoColor=white)](./deliverables/ADL_Challenge_Report_-_21_GANs.pdf)
 
 This repository contains the project code, models, and reports developed for the **Advanced Deep Learning (ADL)** course during the 2025/2026 academic year as part of the MSc in Computer Science & Engineering at **Politecnico di Milano**.
 
@@ -83,7 +83,7 @@ The dataset is structured similarly to industrial standards (e.g., MVTec AD), fe
 * 📂 **`destseg_dinov3.ipynb`**: Comprehensive DeSTSeg setup featuring a multi-student layout, custom real-patch cut-paste, whole-anomaly replay, validation, and streaming test predictions.
 * 📂 **`anomaly_supervised_v2.ipynb`**: Supervised segmentation network trained on annotated validation defects.
 * 📂 **`weighted_ensemble.ipynb`**: The pipeline to aggregate predictions, run normalization, and compile the final `q8rle` encoded submission file.
-* 📄 **[ADL Challenge Report - 21 GANs.pdf](./deliverables/ADL%20Challenge%20Report%20-%2021%20GANs.pdf)**: Detailed technical report describing the methodology, design choices, validation results, and ensemble strategies.
+* 📄 **[ADL Challenge Report - 21 GANs.pdf](./deliverables/ADL_Challenge_Report_-_21_GANs.pdf)**: Detailed technical report describing the methodology, design choices, validation results, and ensemble strategies.
 
 ---
 
