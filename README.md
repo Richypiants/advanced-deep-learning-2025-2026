@@ -7,11 +7,24 @@
 [![Kaggle](https://img.shields.io/badge/Kaggle-Notebooks-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/)
 [![ADL Report](https://img.shields.io/badge/ADL-Challenge%20Report-red?logo=adobe-acrobat-reader&logoColor=white)](./deliverables/ADL_Challenge_Report_-_21_GANs.pdf)
 
-This repository contains the project code, models, and reports developed for the **Advanced Deep Learning (ADL)** course during the 2025/2026 academic year as part of the MSc in Computer Science & Engineering at **Politecnico di Milano**.
+his repository contains the project code and report developed for the **Advanced Deep Learning (ADL)** course challenge during the 2025/2026 academic year as part of the MSc in Computer Science & Engineering at **Politecnico di Milano**.
 
 The work here represents the collective effort of team 21 GANs (Riccardo Piantoni, Domenico Piscitelli, and Antonio Riverso) in the ADL competition, focusing on developing a state-of-the-art anomaly segmentation system designed for industrial quality control.
 
-The task requires detecting and precisely segmenting pixel-level anomalies across **8 distinct industrial categories** (comprising complex textures and structures). The solution leverages a powerful **weighted ensemble of foundation models (DINOv2 & DINOv3)** combined with zero-shot (PatchCore), self-supervised (DeSTSeg) and supervised anomaly segmentation methods.
+The task requires detecting and precisely segmenting pixel-level anomalies across **8 distinct industrial categories** (comprising complex textures and structures). The solution leverages a powerful **weighted ensemble**, combining zero-shot (PatchCore), self-supervised (DeSTSeg) and supervised anomaly segmentation methods powered by State-of-the-Art backbones (DINOv2 & DINOv3).
+
+---
+
+## 🏆 Competition Results
+
+In the challenge, our team competed against 24 teams. The final evaluations were based on pixel-wise Average Precision of the anomaly maps produced. 
+
+| Leaderboard | Rank | Pixel-wise AP |
+| :--- | :--- | :--- |
+| Public | **7th/24** | 0.8766 |
+| Private | **8th/24** | 0.8991 |
+
+---
 
 ---
 
